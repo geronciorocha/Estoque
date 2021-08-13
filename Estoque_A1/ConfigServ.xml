@@ -1,0 +1,8 @@
+<ConfigServ>
+  <porta>5432</porta>
+  <usuario>postgres</usuario>
+  <senha>ywhwljwymny fm</senha>
+  <link>jdbc:postgresql://localhost:5432/siscom_confianca?ApplicationName=BD</link>
+  <bancoDados>siscom_confianca</bancoDados>
+  <ip>localhost</ip>
+</ConfigServ>
