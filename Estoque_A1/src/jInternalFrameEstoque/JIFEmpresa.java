@@ -820,6 +820,10 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
 
     public void abreCampos() {
 
+        jButton7.setEnabled(true);
+        jRadioButton3.setEnabled(true);
+        jRadioButton4.setEnabled(true);
+        
         if(jCheckBox18.isSelected()){
             AbrirCamposDescontoMaximo();
         }
@@ -943,6 +947,10 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
 
     public void fechaCampos() {
 
+        jButton7.setEnabled(false);
+        jRadioButton3.setEnabled(false);
+        jRadioButton4.setEnabled(false);
+        
         jCheckBox18.setEnabled(false);
         
         if(jCheckBox18.isSelected()){
@@ -1820,7 +1828,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         jTextField10.setEnabled(false);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Nota fiscal eletrônica - NF-e", 2, 0, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 0, 0))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Nota fiscal eletrônica - NF-e", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 0, 0))); // NOI18N
 
         buttonGroup3.add(jRadioButton1);
         jRadioButton1.setText("Homologação");
@@ -2177,7 +2185,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         });
 
         jPanel29.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel29.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Controlar estoque com pedido NÃO FATURADO", 2, 0, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
+        jPanel29.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Controlar estoque com pedido NÃO FATURADO", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
 
         jRadioButton9.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup4.add(jRadioButton9);
@@ -2219,7 +2227,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         );
 
         jPanel30.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel30.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Modelos de comissionamento", 2, 0, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
+        jPanel30.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Modelos de comissionamento", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11))); // NOI18N
 
         jRadioButton11.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup5.add(jRadioButton11);
@@ -2649,7 +2657,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         jTabbedPane2.addTab("Certificado Digital - Produção", jPanel6);
 
         jPanel17.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel17.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "   Configurar E-MAIL   ", 2, 0));
+        jPanel17.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "   Configurar E-MAIL   ", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
 
         jLabel44.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel44.setText("Provedor:");
@@ -2780,7 +2788,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         });
 
         jPanel26.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel26.setBorder(javax.swing.BorderFactory.createBevelBorder(0, null, new java.awt.Color(204, 204, 204), null, null));
+        jPanel26.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 204, 204), null, null));
 
         jTable7.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         jTable7.setModel(new javax.swing.table.DefaultTableModel(
@@ -3094,7 +3102,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         });
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Boleto Bancário", 2, 0, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 0, 0))); // NOI18N
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Boleto Bancário", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 11), new java.awt.Color(255, 0, 0))); // NOI18N
 
         jLabel9.setText("Cod.:");
 
@@ -3881,7 +3889,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         jPanel21.setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel24.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Tipo de papel", 2, 0, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
+        jPanel24.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Tipo de papel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
 
         codigoProdutoDANFE.add(jRadioButton5);
         jRadioButton5.setText("Bobina 88 mm");
@@ -3890,6 +3898,11 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         codigoProdutoDANFE.add(jRadioButton6);
         jRadioButton6.setText("A4");
         jRadioButton6.setOpaque(false);
+        jRadioButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton6ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
         jPanel24.setLayout(jPanel24Layout);
@@ -3934,7 +3947,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Código do Produto no DANFE", 2, 0, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
+        jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Código do Produto no DANFE", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
 
         codigoProdutoDANFE.add(jRadioButton4);
         jRadioButton4.setText("Código de barras / Ref. do produto");
@@ -3985,6 +3998,7 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         jTabbedPane5.addTab("DANFE NF-e - MOD 55", jPanel22);
 
         jButton7.setText("Configurar DANFE");
+        jButton7.setEnabled(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
@@ -4870,6 +4884,9 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton11ActionPerformed
 
+    private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
+    }//GEN-LAST:event_jRadioButton6ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem Remov1;
     private javax.swing.JMenuItem Remov2;
@@ -5357,6 +5374,8 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
             ********************************************************
             */
             SalvaEmpresa();
+            
+            
         }catch(Exception ex){
             JOptionPane.showMessageDialog(null, ex.getMessage(), "", JOptionPane.ERROR_MESSAGE);
             return;
