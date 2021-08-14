@@ -4106,7 +4106,9 @@
                             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                               <ComponentRef name="codigoProdutoDANFE"/>
                             </Property>
+                            <Property name="selected" type="boolean" value="true"/>
                             <Property name="text" type="java.lang.String" value="Bobina 88 mm"/>
+                            <Property name="enabled" type="boolean" value="false"/>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
                         </Component>
@@ -4116,6 +4118,7 @@
                               <ComponentRef name="codigoProdutoDANFE"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="A4"/>
+                            <Property name="enabled" type="boolean" value="false"/>
                             <Property name="opaque" type="boolean" value="false"/>
                           </Properties>
                           <Events>

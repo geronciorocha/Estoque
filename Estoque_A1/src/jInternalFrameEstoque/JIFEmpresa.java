@@ -3892,11 +3892,14 @@ public class JIFEmpresa extends javax.swing.JInternalFrame {
         jPanel24.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Tipo de papel", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
 
         codigoProdutoDANFE.add(jRadioButton5);
+        jRadioButton5.setSelected(true);
         jRadioButton5.setText("Bobina 88 mm");
+        jRadioButton5.setEnabled(false);
         jRadioButton5.setOpaque(false);
 
         codigoProdutoDANFE.add(jRadioButton6);
         jRadioButton6.setText("A4");
+        jRadioButton6.setEnabled(false);
         jRadioButton6.setOpaque(false);
         jRadioButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
