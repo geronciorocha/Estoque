@@ -92,14 +92,6 @@ public class JD_inserir_impostos extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        try{
-            produtoQuery = java.beans.Beans.isDesignTime() ? null : bd.Bd.conection.connectionA.currentEntityManager().createQuery("SELECT p FROM Produto p");
-            produtoList = java.beans.Beans.isDesignTime() ? java.util.Collections.emptyList() : produtoQuery.getResultList();
-        } catch (Exception ex) {
-            Logger.getLogger(JD_inserir_impostos.class.getName()).log(Level.SEVERE, null, ex);
-        } finally {
-            bd.Bd.conection.connectionA.closeEntityManager();
-        }
         jPopupMenu1 = new javax.swing.JPopupMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jPanel1 = new javax.swing.JPanel();
@@ -609,8 +601,6 @@ public class JD_inserir_impostos extends javax.swing.JDialog {
     public javax.swing.JTable jTable1;
     public static javax.swing.JTextField jTextField4;
     public static javax.swing.JTextField jTextField5;
-    public java.util.List<bd.DAO.Produto> produtoList;
-    public javax.persistence.Query produtoQuery;
     // End of variables declaration//GEN-END:variables
 
      public void keyPressed(KeyEvent e) {

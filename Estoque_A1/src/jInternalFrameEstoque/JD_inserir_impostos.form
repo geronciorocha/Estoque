@@ -2,28 +2,6 @@
 
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
   <NonVisualComponents>
-    <Component class="javax.persistence.Query" name="produtoQuery">
-      <Properties>
-        <Property name="query" type="java.lang.String" value="SELECT p FROM Produto p"/>
-        <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="bd.Bd.conection.connectionA.currentEntityManager()" type="code"/>
-        </Property>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="try{"/>
-      </AuxValues>
-    </Component>
-    <Component class="java.util.List" name="produtoList">
-      <Properties>
-        <Property name="query" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$QueryBeanProperty$QueryEditor">
-          <ComponentRef name="produtoQuery"/>
-        </Property>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="} catch (Exception ex) {&#xa;    Logger.getLogger(JD_inserir_impostos.class.getName()).log(Level.SEVERE, null, ex);&#xa;} finally {&#xa;    bd.Bd.conection.connectionA.closeEntityManager();&#xa;}"/>
-        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;bd.DAO.Produto&gt;"/>
-      </AuxValues>
-    </Component>
     <Container class="javax.swing.JPopupMenu" name="jPopupMenu1">
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
